@@ -1,6 +1,7 @@
 package com.company;
 
 public class Contact {
+
     public String getContactName() {
         return ContactName;
     }
