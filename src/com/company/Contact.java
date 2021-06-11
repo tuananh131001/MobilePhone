@@ -1,6 +1,13 @@
 package com.company;
 
 public class Contact {
+    private String ContactName;
+    private String ContactPhoneNum;
+
+    public Contact(String contactName, String contactPhoneNum) {
+        ContactName = contactName;
+        ContactPhoneNum = contactPhoneNum;
+    }
 
     public String getContactName() {
         return ContactName;
@@ -18,7 +25,6 @@ public class Contact {
         ContactPhoneNum = contactPhoneNum;
     }
 
-    private String ContactName;
-    private String ContactPhoneNum;
+
 
 }
